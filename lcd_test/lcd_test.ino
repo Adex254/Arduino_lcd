@@ -6,7 +6,7 @@
  * Columns: 16, Rows: 2
  * Note: For Arduino Uno, SDA is A4 and SCL is A5
  */
-LiquidCrystal_I2C lcd(0x3F, 16, 2);
+LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 void setup() {
   // Initialize the LCD
